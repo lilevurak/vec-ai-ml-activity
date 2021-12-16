@@ -13,7 +13,7 @@ For training on a different dataset you can tweak the "load_data" function found
 
 ### Prediction
 
-For prediction you can import the FMPredictor class from fn_mnist/predict.py. In it there are multiple versions of predict functions for different input, it can take ndarrays of dimenions nx28x28x1 or 2d lists of size nx784 where n is the number of images.It can also accept a single image's file path and load it using opencv.
+For prediction you can import the FMPredictor class from fn_mnist/predict.py. You can pass the model path to its constructer to load the model. In it there are multiple versions of predict functions for different input types, it can take ndarrays of dimenions nx28x28x1 or 2d lists of size nx784 where n is the number of images.It can also accept a single image's file path and load it using opencv.
 
 
 ## Unified API for Kafka/PubSub
